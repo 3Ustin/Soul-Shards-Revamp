@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         // [Screen.fullScreen][1] = true;
-        Screen.fullScreen = true;
+        // Screen.fullScreen = true;
         controller = GetComponent<CharacterController>();
         if(lockCursor)
         {
